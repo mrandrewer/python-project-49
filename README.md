@@ -28,3 +28,9 @@ brain-calc
 brain-gcd
 ```
 [![asciicast](https://asciinema.org/a/4F1iZUh4d1O0iDBFZHDOQkAvf.svg)](https://asciinema.org/a/4F1iZUh4d1O0iDBFZHDOQkAvf)
+
+#### Progression game
+```bash
+brain-progression
+```
+[![asciicast](https://asciinema.org/a/8rx4t9TQKt0HlQWMBa1JUbHby.svg)](https://asciinema.org/a/8rx4t9TQKt0HlQWMBa1JUbHby)
