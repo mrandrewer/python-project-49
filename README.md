@@ -34,3 +34,9 @@ brain-gcd
 brain-progression
 ```
 [![asciicast](https://asciinema.org/a/8rx4t9TQKt0HlQWMBa1JUbHby.svg)](https://asciinema.org/a/8rx4t9TQKt0HlQWMBa1JUbHby)
+
+#### Prime game
+```bash
+brain-prime
+```
+[![asciicast](https://asciinema.org/a/CSsMriWuVE7vyXG5RRRyEBKB7.svg)](https://asciinema.org/a/CSsMriWuVE7vyXG5RRRyEBKB7)
