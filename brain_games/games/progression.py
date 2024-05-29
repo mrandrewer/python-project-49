@@ -16,7 +16,7 @@ def getTurnData():
         element += increment
         progression.append(f'{element}')
 
-    missing_index = randint(0, length)
+    missing_index = randint(0, length - 1)
     missing_element = progression[missing_index]
     progression[missing_index] = '..'
     return [' '.join(progression), missing_element]
