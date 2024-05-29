@@ -22,3 +22,9 @@ brain-even
 brain-calc
 ```
 [![asciicast](https://asciinema.org/a/Ji6dUeHmdYDZYgEq35CMcSODr.svg)](https://asciinema.org/a/Ji6dUeHmdYDZYgEq35CMcSODr)
+
+#### Greatest common denominator game
+```bash
+brain-gcd
+```
+[![asciicast](https://asciinema.org/a/4F1iZUh4d1O0iDBFZHDOQkAvf.svg)](https://asciinema.org/a/4F1iZUh4d1O0iDBFZHDOQkAvf)
