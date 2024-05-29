@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from random import randint
+from brain_games import const
 
 
 def getDescription():
@@ -7,9 +8,9 @@ def getDescription():
 
 
 def getTurnData():
-    length = randint(5, 15)
-    increment = randint(1, 20)
-    element = randint(1, 20)
+    length = randint(const.MIN_PROGRESSION_LENGTH, const.MAX_PROGRESSION_LENGTH)
+    increment = randint(const.MIN_PROGRESSION_INC, const.MAX_PROGRESSION_INC)
+    element = randint(const.MIN_NUMBER, const.MAX_NUMBER)
     progression = [f'{element}']
     while len(progression) < length:
         element += increment

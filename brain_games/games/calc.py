@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from random import randint, choice
+from brain_games import const
 
 
 def getDescription():
@@ -7,8 +8,8 @@ def getDescription():
 
 
 def getTurnData():
-    num1 = randint(1, 100)
-    num2 = randint(1, 100)
+    num1 = randint(const.MIN_NUMBER, const.MAX_NUMBER)
+    num2 = randint(const.MIN_NUMBER, const.MAX_NUMBER)
     operations = ['+', '-', '*']
     operation = choice(operations)
     if operation == '+':

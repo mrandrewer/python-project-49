@@ -1,7 +1,5 @@
 from brain_games import cli
-
-
-TURNS_TO_WIN = 3
+from brain_games import const
 
 
 def runGame(getDescription, getTurnData):
@@ -9,7 +7,7 @@ def runGame(getDescription, getTurnData):
     username = cli.welcome_user()
     cli.show_message(getDescription())
     correct_turns = 0
-    while correct_turns < TURNS_TO_WIN:
+    while correct_turns < const.TURNS_TO_WIN:
         [question, correct_answer] = getTurnData()
         your_answer = cli.ask_question(question)
         if your_answer != correct_answer:

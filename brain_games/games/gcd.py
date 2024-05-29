@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from random import randint
+from brain_games import const
 
 
 def getGDC(a, b):
@@ -13,6 +14,6 @@ def getDescription():
 
 
 def getTurnData():
-    num1 = randint(1, 100)
-    num2 = randint(1, 100)
+    num1 = randint(const.MIN_NUMBER, const.MAX_NUMBER)
+    num2 = randint(const.MIN_NUMBER, const.MAX_NUMBER)
     return [f'{num1} {num2}', f'{getGDC(num1, num2)}']

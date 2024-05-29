@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from random import randint
 from math import sqrt
+from brain_games import const
 
 
 def isPrime(num):
@@ -16,6 +17,6 @@ def getDescription():
 
 
 def getTurnData():
-    num = randint(1, 100)
+    num = randint(const.MIN_NUMBER, const.MAX_NUMBER)
     correct_answer = 'yes' if isPrime(num) else 'no'
     return [num, correct_answer]

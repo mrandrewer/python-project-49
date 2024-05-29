@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from random import randint
+from brain_games import const
 
 
 def getDescription():
@@ -8,6 +9,6 @@ def getDescription():
 
 
 def getTurnData():
-    num = randint(1, 100)
+    num = randint(const.MIN_NUMBER, const.MAX_NUMBER)
     correct_answer = 'yes' if num % 2 == 0 else 'no'
     return [num, correct_answer]
