@@ -16,12 +16,9 @@ make package-install
 brain-even
 ```
 [![asciicast](https://asciinema.org/a/ZQJXKiEeul7VQ44299TJOzpoL.svg)](https://asciinema.org/a/ZQJXKiEeul7VQ44299TJOzpoL)
-```
-
 
 #### Calc game
 ```bash
 brain-calc
 ```
 [![asciicast](https://asciinema.org/a/Ji6dUeHmdYDZYgEq35CMcSODr.svg)](https://asciinema.org/a/Ji6dUeHmdYDZYgEq35CMcSODr)
-```
