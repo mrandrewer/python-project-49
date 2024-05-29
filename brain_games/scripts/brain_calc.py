@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 from brain_games import engine
-from brain_games.games import even
+from brain_games.games import calc
 
 
 def main():
-    engine.runGame(even.getDescription, even.getTurnData)
+    engine.runGame(calc.getDescription, calc.getTurnData)
 
 
 if __name__ == '__main__':
