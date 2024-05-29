@@ -4,7 +4,7 @@ from brain_games.games import prime
 
 
 def main():
-    engine.runGame(prime.getDescription, prime.getTurnData)
+    engine.run_game(prime.get_description, prime.get_turn_data)
 
 
 if __name__ == '__main__':

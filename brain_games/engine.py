@@ -2,13 +2,13 @@ from brain_games import cli
 from brain_games import const
 
 
-def runGame(getDescription, getTurnData):
+def run_game(get_description, get_turn_data):
     cli.show_message('Welcome to the Brain Games!')
     username = cli.welcome_user()
-    cli.show_message(getDescription())
+    cli.show_message(get_description())
     correct_turns = 0
     while correct_turns < const.TURNS_TO_WIN:
-        [question, correct_answer] = getTurnData()
+        [question, correct_answer] = get_turn_data()
         your_answer = cli.ask_question(question)
         if your_answer != correct_answer:
             cli.show_wrong_message(correct_answer, your_answer)

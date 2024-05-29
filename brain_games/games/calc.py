@@ -3,11 +3,11 @@ from random import randint, choice
 from brain_games import const
 
 
-def getDescription():
+def get_description():
     return 'What is the result of the expression?'
 
 
-def getTurnData():
+def get_turn_data():
     num1 = randint(const.MIN_NUMBER, const.MAX_NUMBER)
     num2 = randint(const.MIN_NUMBER, const.MAX_NUMBER)
     operations = ['+', '-', '*']

@@ -3,11 +3,11 @@ from random import randint
 from brain_games import const
 
 
-def getDescription():
+def get_description():
     return 'What number is missing in the progression?'
 
 
-def getTurnData():
+def get_turn_data():
     length = randint(const.MIN_PROGRESSION_LENGTH, const.MAX_PROGRESSION_LENGTH)
     increment = randint(const.MIN_PROGRESSION_INC, const.MAX_PROGRESSION_INC)
     element = randint(const.MIN_NUMBER, const.MAX_NUMBER)
